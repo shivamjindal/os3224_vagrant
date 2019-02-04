@@ -105,7 +105,6 @@ void uniq(int fd, struct line *line1, struct line *line2)
         initializeLine(line2);
         addingLine2 = 1;
       }
-      //  addTo(line2, &buf[0]);
     }
   }
 
