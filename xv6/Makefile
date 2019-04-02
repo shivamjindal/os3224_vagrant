@@ -174,6 +174,7 @@ UPROGS=\
 	_zombie\
 	_hello\
 	_uniq\
+	_fg\
 
 fs.img: mkfs README example.txt $(UPROGS)
 	./mkfs fs.img README example.txt $(UPROGS)
